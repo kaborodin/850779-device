@@ -40,12 +40,15 @@
       </header>
       <main>
       <h1 class="visually-hidden">Магазин Device</h1>
-      <section class="promo_product">
-      <h2 class="visually-hidden">Лучший товар</h2>
-      <img src="" alt="">
-      <b>Делай селфи, как Бен Стиллер!</b>
-      <p>Самая длинная палка для селфи постуана в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-      <span>Подробнее</span>
+      <section class="slider">
+          <div class="slide-item">
+            <h2 class="visually-hidden">Палка для селфи</h2>
+            <img src="" alt="">
+            <b>Делай селфи, как Бен Стиллер!</b>
+            <p>Самая длинная палка для селфи постуана в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+            <a href="#">Подробнее</a>  
+          </div>
+      
       <!--Таблица с характеристиками-->
       </section>
       
@@ -91,7 +94,7 @@
       <section class="contacts">
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-          <img src="img/map.jpg" alt="Схема проезда">
+          <img src="img/map.jpg" alt="Адрес офиса: ул.Строителей,15">
           <span>Напишите нам</span>
       </section>    
       </main>
@@ -129,5 +132,21 @@
               <img src="img/html-logo.png" alt="Разработано в HTML Academy">
           </section>
       </footer>
+      <section class="form-popup">
+          <button class="close">Зарыть окно</button>
+          <form action="" metod="post">
+              <label for="form-name">Ваше имя:</label>
+              <input type="text" name="name" placeholder="Имя Фамилия" id="form-name">
+              <label for="form-mail">Ваш e-mail:</label>
+              <input type="email" name="email" placeholder="email@example.ru" id="form-mail">
+              <label for="form-message">Текст письма:</label>
+              <input type="text" name="message" placeholder="В свободной форме" id="form-message">
+              <button class="submit">Отправить</button>
+          </form>
+      </section>
+      <section class="map-popup">
+          <button class="close">Зарыть окно</button>
+          <img src="img/map.jpg" alt="Адрес офиса: ул.Строителей,15">
+      </section>
   </body>
 </html>
