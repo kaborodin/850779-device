@@ -14,7 +14,8 @@
             <ul class="user-navigation">
                 <li>
                     <form action="http://echo.htmlacademy.ru" method="get">
-                        <label class="visually-hidden"><input type="text" name="search" placeholder="Поиск по сайту">Поиск по сайту</label>
+                        <label class="visually-hidden" for="search">Поиск по сайту</label>
+                        <input type="text" name="search" id="search" placeholder="Поиск по сайту">
                         <button type="submit">Найти</button>
                     </form>
                 </li>
@@ -54,8 +55,18 @@
             <p>Самая длинная палка для селфи постуана в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
             <a href="#">Подробнее</a>  
           </div>
-      
-      <!--Таблица с характеристиками-->
+      <table>
+          <tr>
+              <td>Длина палки</td>
+              <td>Вес палки</td>
+              <td>Материал</td>
+          </tr>
+          <tr>
+              <td>8,5 м</td>
+              <td>5 кг</td>
+              <td>Карбон</td>
+          </tr>
+      </table>
       </section>
       
       <section class="catalog-menu">
