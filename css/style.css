@@ -39,6 +39,10 @@ body
 {
   color: rgba(0, 0, 0, 0.6);
 }
+.text-logo:focus
+{
+  color: rgba(0, 0, 0, 0.6);
+}
 .text-logo:active
 {
   color: rgba(0, 0, 0, 0.302);
@@ -53,6 +57,10 @@ body
     color:#ffc600;
 }
 .main-footer .text-logo:hover
+{
+  color: rgba(255, 198, 0, 0.6);
+}
+.main-footer .text-logo:focus
 {
   color: rgba(255, 198, 0, 0.6);
 }
@@ -122,6 +130,10 @@ a
 {
   color: rgba(0, 0, 0, 0.6);
 }
+.text-black:focus
+{
+  color: rgba(0, 0, 0, 0.6);
+}
 .text-black:active
 {
   color: rgba(0, 0, 0, 0.302);
@@ -129,6 +141,7 @@ a
 /*Стили для пунктов меню*/
 
 
+h1,
 h2
 {
     font-family:"gilroyextrabold", Arial, sans-serif;
@@ -192,7 +205,8 @@ a.phone
     font-size:18px;
     line-height:24px;
     font-weight:bold;
-    text-transform: uppercase;  
+    text-transform: uppercase;
+    
 }
 .text-white
 {
@@ -202,8 +216,68 @@ a.phone
 {
   color: rgba(255, 255, 255, 0.6);
 }
+.text-white:focus
+{
+  color: rgba(255, 255, 255, 0.6);
+}
 .text-white:active
 {
   color: rgba(255, 255, 255, 0.302);
 }
 /*Стили для ссылок в footer*/
+
+.bread-item
+{
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.302);
+  line-height: 24px;
+}
+h3.product-name
+{
+  font-size: 18px;
+  font-family: "Gilroy", Arial, sans-serif;
+  color:black;
+  font-weight: bold;
+  line-height:24px;
+}
+span.product-price
+{
+  font-size: 16px;
+  font-family: "Gilroy", Arial, sans-serif;
+  color: rgb(70, 70, 70);
+  line-height:24px;
+}
+legend
+{
+  font-size: 18px;
+  font-family: "Gilroy", Arial, sans-serif;
+  color:black;
+  font-weight: bold;
+  line-height:24px;
+}
+.filters label
+{
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color:black;
+  line-height:40px;
+}
+.logout-black
+{
+  font-size: 15px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.302);
+  line-height:30px;
+}
+.logout-white
+{
+  font-size: 15px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.302);
+  line-height:30px;
+}
+.soc-button
+{
+    color:white;
+}
