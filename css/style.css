@@ -14,6 +14,7 @@
 
 }
 /*Подключение шрифтов*/
+
 body
 {
     margin:0;
@@ -24,6 +25,8 @@ body
     color:black;
     background-color:#ffffff;
 }
+
+/*Стили для Логотипа*/
 .text-logo
 {
     font-family:"gilroyextrabold", Arial, sans-serif;
@@ -40,8 +43,24 @@ body
 {
   color: rgba(0, 0, 0, 0.302);
 }
-
-
+.main-footer .text-logo
+{
+    font-family:"gilroyextrabold", Arial, sans-serif;
+    font-size:48px;
+    line-height:auto;
+    font-weight:bold;
+    text-transform: uppercase;
+    color:#ffc600;
+}
+.main-footer .text-logo:hover
+{
+  color: rgba(255, 198, 0, 0.6);
+}
+.main-footer .text-logo:active
+{
+  color: rgba(255, 198, 0, 0.302);
+}
+/*Стили для Логотипа*/
 
 ul
 {
@@ -50,14 +69,16 @@ ul
 a
 {
     text-decoration: none;
-    color:black;
-    
 }
+
+/*Стили для поиска в header*/
 .search-input
 {
     border:none;
     background-color:#f7e296;
 }
+/*Стили для поиска в header*/
+
 /*Стили для плейсхолдера*/
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color:#464646;
@@ -72,9 +93,18 @@ a
   color:#464646;
 }
 /*Стили для плейсхолдера*/
+
+
 .main-nav
 {
     background-color:#f7e296;
+}
+/*Стили для пунктов меню*/
+.user-navigation-item
+{
+  font-size: 15px;
+  font-family:"Open Sans", Arial, sans-serif;
+  line-height:30px;
 }
 .site-navigation-item
 {
@@ -84,6 +114,21 @@ a
     line-height:24px;
     text-transform: uppercase;
 }
+.text-black
+{
+  color: rgba(0, 0, 0);
+}
+.text-black:hover
+{
+  color: rgba(0, 0, 0, 0.6);
+}
+.text-black:active
+{
+  color: rgba(0, 0, 0, 0.302);
+}
+/*Стили для пунктов меню*/
+
+
 h2
 {
     font-family:"gilroyextrabold", Arial, sans-serif;
@@ -97,8 +142,9 @@ h2
     font:inherit;
     color:#464646;
 }
-.link
+.page-link
 {
+    color:black;
     font-family:"gilroyextrabold", Arial, sans-serif;
     font-size:18px;
     font-weight:bold;
@@ -133,20 +179,14 @@ h2
     line-height:30px;
 }
 
-.main-footer .text-logo
-{
-    font-family:"gilroyextrabold", Arial, sans-serif;
-    font-size:48px;
-    line-height:auto;
-    font-weight:bold;
-    text-transform: uppercase;
-    color:#ffc600;
-}
+
+
 a.phone
 {
     line-height:30px;
 }
-.footer-navigation a
+/*Стили для ссылок в footer*/
+.footer-navigation-item
 {
     font-family:"gilroyextrabold", Arial, sans-serif;
     font-size:18px;
@@ -154,8 +194,16 @@ a.phone
     font-weight:bold;
     text-transform: uppercase;  
 }
-footer a
+.text-white
 {
-    color:white;
-    line-height:36px;
+  color: rgba(255, 255, 255);
 }
+.text-white:hover
+{
+  color: rgba(255, 255, 255, 0.6);
+}
+.text-white:active
+{
+  color: rgba(255, 255, 255, 0.302);
+}
+/*Стили для ссылок в footer*/
