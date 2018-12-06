@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'gilroyextrabold';
+    font-family: 'gilroy';
     src: url('../fonts/gilroyextrabold-webfont.woff2') format('woff2'),
          url('../fonts/gilroyextrabold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
 @font-face {
-    font-family: 'gilroylight';
+    font-family: 'gilroy';
     src: url('../fonts/gilroylight-webfont.woff2') format('woff2'),
          url('../fonts/gilroylight-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 
 }
@@ -28,7 +28,7 @@ body
 /*Стили для Логотипа*/
 .text-logo
 {
-    font-family:"gilroyextrabold", Arial, sans-serif;
+    font-family:"gilroy", Arial, sans-serif;
     font-size:48px;
     line-height:48px;
     font-weight:bold;
@@ -48,7 +48,7 @@ body
 }
 .main-footer .text-logo
 {
-    font-family:"gilroyextrabold", Arial, sans-serif;
+    font-family:"gilroy", Arial, sans-serif;
     font-size:48px;
     line-height:auto;
     font-weight:bold;
@@ -115,7 +115,7 @@ a
 }
 .site-navigation-item
 {
-    font-family:"gilroyextrabold", Arial, sans-serif;
+    font-family:"gilroy", Arial, sans-serif;
     font-size:18px;
     font-weight:bold;
     line-height:24px;
@@ -143,7 +143,7 @@ a
 h1,
 h2
 {
-    font-family:"gilroyextrabold", Arial, sans-serif;
+    font-family:"gilroy", Arial, sans-serif;
     font-size:47px;
     font-weight:bold;
     line-height:48px;
@@ -157,7 +157,7 @@ h2
 .page-link
 {
     color:black;
-    font-family:"gilroyextrabold", Arial, sans-serif;
+    font-family:"gilroy", Arial, sans-serif;
     font-size:18px;
     font-weight:bold;
     line-height:24px;
@@ -170,7 +170,7 @@ h2
 }
 .delivery-list li
 {
-    font-family:"gilroyextrabold", Arial, sans-serif;
+    font-family:"gilroy", Arial, sans-serif;
     font-size:16px;
     font-weight:bold;
     line-height:40px; 
@@ -200,7 +200,7 @@ a.phone
 /*Стили для ссылок в footer*/
 .footer-navigation-item
 {
-    font-family:"gilroyextrabold", Arial, sans-serif;
+    font-family:"gilroy", Arial, sans-serif;
     font-size:18px;
     line-height:24px;
     font-weight:bold;
