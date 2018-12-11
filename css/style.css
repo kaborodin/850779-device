@@ -312,17 +312,22 @@ legend
     margin-left:60px;
     margin-bottom:20px;
 }
-.user-navigation li:nth-child(1)
+.user-navigation li
 {
-    margin-right:175px;
+    width:100px;
+    margin-right:20px;
 }
-.user-navigation li:nth-child(2)
+.user-navigation li:last-child
 {
-    margin-right:240px;
+    margin-right:0;
 }
-.user-navigation li:nth-child(3)
+li.search
 {
-    margin-right:60px;
+    width:520px;
+}
+li.login
+{
+    width:260px;
 }
 .site-navigation
 {
@@ -332,18 +337,23 @@ legend
     width:1040px;
     margin-left:60px;
 }
-.site-navigation li:nth-child(1)
+.site-navigation li
 {
-    margin-right:150px;
+    letter-spacing: 3px;
+    width:140px;
+    margin-right:20px;
 }
-.site-navigation li:nth-child(2)
+.site-navigation li:last-child
 {
-    margin-right:auto;
+    margin-left:auto;
+    margin-right:0;
+    text-align: right;
 }
-.site-navigation li:nth-child(3)
+li.catalog
 {
-    margin-right:100px;
+    width:520px;
 }
+
 
 /*Нужно скрыть правильно*/
 label
