@@ -344,3 +344,13 @@ legend
 {
     margin-right:100px;
 }
+
+/*Нужно скрыть правильно*/
+label
+{
+    display:none;
+}
+button
+{
+    display:none;
+}
