@@ -289,8 +289,58 @@ legend
     padding:0 10px;
     margin:0 auto;
 }
-.text-logo
+.logo
 {
+    padding:0;
+    margin:0;
     width:200px;
     margin-left:60px;
+    margin-bottom:-25px;
+}
+
+.main-nav
+{
+    padding-top:50px;
+    
+}
+.user-navigation
+{
+    margin:0;
+    padding:0;
+    display:flex;
+    width:1040px;
+    margin-left:60px;
+    margin-bottom:20px;
+}
+.user-navigation li:nth-child(1)
+{
+    margin-right:175px;
+}
+.user-navigation li:nth-child(2)
+{
+    margin-right:240px;
+}
+.user-navigation li:nth-child(3)
+{
+    margin-right:60px;
+}
+.site-navigation
+{
+    margin:0;
+    padding:0;
+    display:flex;
+    width:1040px;
+    margin-left:60px;
+}
+.site-navigation li:nth-child(1)
+{
+    margin-right:150px;
+}
+.site-navigation li:nth-child(2)
+{
+    margin-right:auto;
+}
+.site-navigation li:nth-child(3)
+{
+    margin-right:100px;
 }
