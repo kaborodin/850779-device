@@ -300,7 +300,7 @@ legend
 
 .main-nav
 {
-    padding-top:50px;
+    padding-top:40px;
     
 }
 .user-navigation
@@ -310,7 +310,7 @@ legend
     display:flex;
     width:1040px;
     margin-left:60px;
-    margin-bottom:20px;
+    margin-bottom:35px;
 }
 .user-navigation li
 {
@@ -363,4 +363,120 @@ label
 button
 {
     display:none;
+}
+.main-columns
+{
+    display:flex;
+    justify-content: space-between;
+}
+.about-us
+{
+    width:460px;
+}
+.contacts
+{
+    width:560px;
+}
+.brands
+{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:100px;
+}
+.brands-list
+{
+    display:flex;
+    justify-content: space-between;
+}
+.brands-list li
+{
+    width:260px;
+    background-color:red;
+}
+.catalog-list
+{
+    display:flex;
+    justify-content: space-between;
+    padding:0;
+}
+.catalog-item
+{
+    padding:0;
+    margin:0;
+    width:160px;
+}
+.item-img
+{
+    display:block;
+    width:160px;
+    height:160px;
+    background-color:red;
+}
+.slider
+{
+    margin-bottom:100px;
+}
+.main-footer
+{
+    margin-top:90px;
+    padding-top:60px;
+}
+.footer-all
+{
+    display:flex;
+    justify-content:space-between;
+}
+.footer-left
+{
+    display:flex;
+    flex-direction:column;
+    width:210px;
+    
+}
+.footer-right
+{
+    display:flex;
+    flex-direction:column;
+    width:330px;
+    align-items:flex-end;
+    margin-left:auto;
+}
+.footer-center
+{
+    display:flex;
+    width:440px;
+    flex-direction: column;
+    margin-left:150px;
+}
+.footer-navigation
+{
+    display:flex;
+    justify-content: space-between;
+    margin-top:75px;
+}
+.footer-social
+{
+   display:flex;
+    justify-content: space-between; 
+}
+.footer-user-navigation
+{
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+    width:330px;
+    margin-bottom:40px;
+}
+.footer-right img
+{
+    margin-top:60px;
+}
+.main-header
+{
+    margin-top:20px;
+}
+.wrong
+{
+    background-color:red;
 }
