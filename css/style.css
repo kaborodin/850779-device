@@ -280,3 +280,17 @@ legend
 {
     color:white;
 }
+
+/*Стили для сеток*/
+
+.container
+{
+    width:1160px;
+    padding:0 10px;
+    margin:0 auto;
+}
+.text-logo
+{
+    width:200px;
+    margin-left:60px;
+}
