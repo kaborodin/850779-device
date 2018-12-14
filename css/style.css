@@ -14,6 +14,16 @@
     font-style: normal;
 
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 body
 {
     margin:0;
@@ -358,7 +368,7 @@ li.catalog
 /*Нужно скрыть правильно*/
 label
 {
-    display:none;
+    /*display:none;*/
 }
 button
 {
@@ -418,7 +428,6 @@ button
 }
 .main-footer
 {
-    margin-top:90px;
     padding-top:60px;
 }
 .footer-all
@@ -475,8 +484,87 @@ button
 .main-header
 {
     margin-top:20px;
+    margin-bottom:35px;
 }
 .wrong
 {
     background-color:red;
+}
+h1
+{
+    margin:0;
+    padding:0;
+    margin-left:60px;
+    margin-bottom:15px;
+}
+
+.bread-list
+{
+    display:flex;
+    padding:0;
+    margin:0;
+    margin-left:60px;
+}
+.bread-item
+{
+    margin-right:40px;
+}
+.filters
+{
+    width:270px;
+    padding-right:60px;
+    background-color:#efefef;
+    position: relative;
+}
+.catalog-main
+{
+    display:flex;
+    padding-top:55px;
+    
+    
+}
+.catalog-prod-list
+{
+    padding:0;
+    margin:0;
+    display:flex;
+    width:760px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.catalog-prod
+{
+    padding:0;
+    margin:0;
+    background-color:white;
+    margin-left:70px;
+    padding-top:80px;
+}
+.catalog-prod-item
+{
+    width:360px;
+    margin-bottom:30px;
+}
+.breadcrumbs
+{
+    margin-bottom:50px;
+}
+.filter-form {
+    position: relative;
+    z-index: 2;
+}
+.filters:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 1000%;
+    height: 100%;
+    background:#efefef;
+    z-index: 1;
+}
+.sort
+{
+    
 }
