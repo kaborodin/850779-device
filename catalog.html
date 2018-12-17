@@ -26,17 +26,17 @@
                     <li class="login">
                         <span  class="user-navigation-item text-black">Валентин Петухов<a href="#" class="logout-black">Выйти</a></span>
                     </li>
-                    <li>
+                    <li class="compare">
                         <a href="#" class="user-navigation-item text-black">Сравнить</a>
                     </li> 
-                    <li>
+                    <li class="cart">
                         <a href="#" class="user-navigation-item text-black">Корзина</a>
                     </li>    
                 </ul> 
                 <ul class="site-navigation">
                       <li class="catalog">
                           <a href="#"  class="site-navigation-item text-black">Каталог товаров</a>
-                              <ul>
+                              <ul class="visually-hidden">
                                   <li><a href="#">Виртуальная реальность</a></li>
                                   <li><a href="#">Моноподы для селфи</a></li>
                                   <li><a href="#">Экшн-камеры</a></li>
@@ -60,8 +60,9 @@
       </header>
       <main>
          <div class="container">
-          <h1>Моноподы для селфи</h1>
+          
           <section class="breadcrumbs">
+             <h1>Моноподы для селфи</h1>
               <ul class="bread-list">
                   <li><a href="index.html" class="bread-item">Главная</a></li>
                   <li><a href="#" class="bread-item">Каталог товаров</a></li>
@@ -99,17 +100,20 @@
               <ul class="catalog-prod-list">
                   <li class="catalog-prod-item">
                      <a href="#">
-                         <img src="img/item-1.jpg" alt="Любительская селфи-палка">
-                         <h3 class="product-name">Любительская селфи-палка</h3>
-                     </a>
+                         <img src="img/item-1.jpg" alt="Любительская селфи-палка"></a>
+                         <div class="prod-info">
+                         <a href="#"><h3 class="product-name">Любительская селфи-палка</h3></a>
+                     
                      <span class="product-price">500 руб.</span>
+                     </div>
                   </li>
                   <li class="catalog-prod-item">
                      <a href="#">
-                         <img src="img/item-2.jpg" alt="Профессиональная селфи-палка">
-                         <h3 class="product-name">Профессиональная селфи-палка</h3>
+                         <img src="img/item-2.jpg" alt="Профессиональная селфи-палка"></a>
+                         <div class="prod-info">
+                         <a href="#"><h3 class="product-name">Профессиональная селфи-палка</h3>
                      </a>
-                     <span class="product-price">1500 руб.</span>
+                     <span class="product-price">1500 руб.</span></div>
                   </li>
                   <li class="catalog-prod-item">
                      <a href="#">
@@ -126,6 +130,7 @@
                      <span class="product-price">4900 руб.</span>
                   </li>
               </ul>
+              
           </section>
           
           </div>

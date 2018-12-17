@@ -93,7 +93,9 @@ a
 {
     border:none;
     background-color:#f7e296;
+    
 }
+
 /*Стили для поиска в header*/
 
 /*Стили для плейсхолдера*/
@@ -318,26 +320,82 @@ legend
     margin:0;
     padding:0;
     display:flex;
-    width:1040px;
+    width:1060px;
     margin-left:60px;
-    margin-bottom:35px;
+    margin-bottom:38px;
+    position:relative;
 }
-.user-navigation li
+/*.user-navigation li
 {
     width:100px;
     margin-right:20px;
-}
+}*/
 .user-navigation li:last-child
 {
-    margin-right:0;
+    margin:0;
+    padding:0;
+    
 }
 li.search
 {
     width:520px;
+    padding-left:40px;
+}
+li.search::before
+{
+    content:"";
+    position:absolute;
+    width:16px;
+    height:16px;
+    background-image:url(../img/search.svg);
+    top:8px;
+    left:5px;
 }
 li.login
 {
     width:260px;
+    margin-left:8px;
+}
+li.login::before
+{
+    content:"";
+    position:absolute;
+    width:13px;
+    height:12px;
+    background-image:url(../img/user.svg);
+    top:10px;
+    left:543px;
+}
+li.compare
+{
+    width:80px;
+    padding-left:20px;
+    margin-right:52px;
+    
+}
+li.compare::before
+{
+    content:"";
+    position:absolute;
+    width:10px;
+    height:10px;
+    background-image:url(../img/compare.svg);
+    top:12px;
+    left:829px;
+}
+li.cart
+{
+   padding-left:0px;
+}
+li.cart::before
+{
+    content:"";
+    position:absolute;
+    width:12px;
+    height:12px;
+    background-image:url(../img/cart.svg);
+    top:10px;
+    right:90px;
 }
 .site-navigation
 {
@@ -346,6 +404,8 @@ li.login
     display:flex;
     width:1040px;
     margin-left:60px;
+    padding-bottom:45px;
+    margin-bottom:40px;
 }
 .site-navigation li
 {
@@ -490,12 +550,15 @@ button
 {
     background-color:red;
 }
-h1
+
+.breadcrumbs
 {
-    margin:0;
-    padding:0;
     margin-left:60px;
-    margin-bottom:15px;
+}
+.breadcrumbs h1
+{
+    padding:0;
+    margin:0;
 }
 
 .bread-list
@@ -503,7 +566,7 @@ h1
     display:flex;
     padding:0;
     margin:0;
-    margin-left:60px;
+    
 }
 .bread-item
 {
@@ -564,7 +627,14 @@ h1
     background:#efefef;
     z-index: 1;
 }
-.sort
+.prod-info
 {
-    
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top:8px;
+}
+.logout-white, .logout-black
+{
+    margin-left:16px;
 }
