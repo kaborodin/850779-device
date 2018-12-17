@@ -544,12 +544,49 @@ button
     margin:0;
     display:flex;
     justify-content: space-between;
-    width:330px;
+    width:500px;
     margin-bottom:40px;
+    position:relative;
+}
+.footer-user-navigation li
+{
+    margin-left:48px;
+    padding-top:4px;
+    
 }
 .footer-right img
 {
     margin-top:60px;
+}
+.footer-login::after
+{
+    content:"";
+    position:absolute;
+    width:13px;
+    height:12px;
+    bottom:10px;
+    left:22px;
+    background-image:url(../img/user.svg);
+}
+.footer-cart::after
+{
+    content:"";
+    position:absolute;
+    width:12px;
+    height:12px;
+    bottom:10px;
+    right:70px;
+    background-image:url(../img/cart.svg);
+}
+.footer-compare::after
+{
+    content:"";
+    position:absolute;
+    width:10px;
+    height:10px;
+    bottom:10px;
+    right:202px;
+    background-image:url(../img/compare.svg);
 }
 .main-header
 {
