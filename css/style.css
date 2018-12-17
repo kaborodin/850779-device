@@ -424,7 +424,7 @@ li.catalog
 {
     width:520px;
 }
-li.catalog::after
+li.catalog>a::after
 {
     content:"";
     position:absolute;
@@ -559,7 +559,7 @@ button
 {
     margin-top:60px;
 }
-.footer-login::after
+.footer-login>a::after
 {
     content:"";
     position:absolute;
@@ -569,7 +569,7 @@ button
     left:22px;
     background-image:url(../img/user.svg);
 }
-.footer-cart::after
+.footer-cart>a::after
 {
     content:"";
     position:absolute;
@@ -579,7 +579,7 @@ button
     right:70px;
     background-image:url(../img/cart.svg);
 }
-.footer-compare::after
+.footer-compare>a::after
 {
     content:"";
     position:absolute;
@@ -685,7 +685,7 @@ button
     position: relative;
     z-index: 2;
 }
-.filters:after {
+.filters::after {
     content: "";
     display: block;
     position: absolute;
