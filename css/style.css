@@ -426,10 +426,13 @@ li.catalog
 }
 li.catalog::after
 {
+    content:"";
     position:absolute;
     width:16px;
     height:16px;
     background-image: url(../img/plus.svg);
+    left:232px;
+    top:6px;
 }
 
 /*Нужно скрыть правильно*/
@@ -561,6 +564,7 @@ button
 .breadcrumbs
 {
     margin-left:60px;
+    
 }
 .breadcrumbs h1
 {
@@ -575,11 +579,29 @@ button
     padding:0;
     margin:0;
     
+    
 }
 .bread-item
 {
     margin-right:40px;
+    padding-right:0px;
+    position:relative;
 }
+.bread-item::after
+{
+    content:"";
+    position:absolute;
+    background-image:url(../img/nav-arrow.svg);
+    width:4px;
+    height:7px;
+    top:7px;
+    right:-18px;
+}
+.bread-item.last::after
+{
+   background-image:none;
+}
+
 .filters
 {
     width:270px;
