@@ -406,6 +406,7 @@ li.cart::before
     margin-left:60px;
     padding-bottom:45px;
     margin-bottom:40px;
+    position:relative;
 }
 .site-navigation li
 {
@@ -423,7 +424,13 @@ li.catalog
 {
     width:520px;
 }
-
+li.catalog::after
+{
+    position:absolute;
+    width:16px;
+    height:16px;
+    background-image: url(../img/plus.svg);
+}
 
 /*Нужно скрыть правильно*/
 label
@@ -559,6 +566,7 @@ button
 {
     padding:0;
     margin:0;
+    margin-bottom:18px;
 }
 
 .bread-list
@@ -600,7 +608,7 @@ button
     padding:0;
     margin:0;
     background-color:white;
-    margin-left:70px;
+    margin-left:auto;
     padding-top:80px;
 }
 .catalog-prod-item
@@ -608,6 +616,7 @@ button
     width:360px;
     margin-bottom:30px;
 }
+
 .breadcrumbs
 {
     margin-bottom:50px;
