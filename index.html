@@ -152,15 +152,15 @@
                   <li><a href="#" class="footer-navigation-item text-white">Контакты</a></li>
               </ul>
               <ul class="footer-social">
-                  <li><a class="soc-button fb-button" href="#" title="Страница магазина в Facebook">Страница магазина в Facebook</a></li>
-                  <li><a class="soc-button inst-button" href="#" title="Страница магазина в Instagram">Страница магазина в  Instagram</a></li>
-                  <li><a class="soc-button tw-button" href="#" title="Страница магазина в Twitter">Страница магазина в  Twitter</a></li>
+                  <li><a href="#" title="Страница магазина в Facebook"><img src="../850779-device/img/fb.svg" alt="Страница магазина в Facebook"></a></li>
+                  <li><a href="#" title="Страница магазина в Instagram"><img src="../850779-device/img/inst.svg" alt="Страница магазина в  Instagram"></a></li>
+                  <li><a href="#" title="Страница магазина в Twitter"><img src="../850779-device/img/tweet.svg" alt="Страница магазина в  Twitter"></a></li>
               </ul>
           </div>
           <div class="footer-right">
               <ul class="footer-user-navigation">
                 <li class="footer-login">
-                    <a href="#" class="user-navigation-item text-white">Войти</a>
+                    <a href="#" class="log-in user-navigation-item text-white">Войти</a>
                 </li>
                 <li class="footer-compare">
                     <a href="#" class="user-navigation-item text-white">Сравнить</a>
@@ -176,20 +176,28 @@
           </div>
       </footer>
       <section class="form-popup">
-          <button class="close">Зарыть окно</button>
-          <form action="http://echo.htmlacademy.ru" method="post">
-              <label for="form-name">Ваше имя:</label>
-              <input type="text" name="name" placeholder="Имя Фамилия" id="form-name">
-              <label for="form-mail">Ваш e-mail:</label>
-              <input type="email" name="email" placeholder="email@example.ru" id="form-mail">
+          <button class="close visually-hidden">Зарыть окно</button>
+          
+          <form class="form-container" action="http://echo.htmlacademy.ru" method="post">
+             <div class="form-top">
+                 <div class="form-input">
+                      <label for="form-name">Ваше имя:</label>
+                      <input type="text" name="name" placeholder="Имя Фамилия" id="form-name">
+                  </div>
+                  <div class="form-input">
+                  <label for="form-mail">Ваш e-mail:</label>
+                  <input type="email" name="email" placeholder="email@example.ru" id="form-mail">
+                 </div>
+              </div>
               <label for="form-message">Текст письма:</label>
               <input type="text" name="message" placeholder="В свободной форме" id="form-message">
               <button type="submit">Отправить</button>
           </form>
+          
       </section>
       <section class="map-popup">
-          <button class="close">Зарыть окно</button>
-          <img src="img/map.jpg" alt="Адрес офиса: ул.Строителей,15">
+             <button class="close-map">Зарыть окно</button>
+          <img src="img/map-big.jpg" alt="Адрес офиса: ул.Строителей,15">
       </section>
   </body>
 </html>
