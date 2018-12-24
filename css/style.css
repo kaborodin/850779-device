@@ -469,11 +469,6 @@ button
     display:flex;
     justify-content: space-between;
 }
-.brands-list li
-{
-    width:260px;
-    background-color:red;
-}
 .catalog-list
 {
     display:flex;
