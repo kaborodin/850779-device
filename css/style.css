@@ -491,7 +491,16 @@ button
     display:block;
     width:160px;
     height:160px;
-    background-color:red;
+    background-color:#f7e296;
+    padding:;
+}
+.item-img:hover
+{
+    background-color:#f0c52e;
+}
+.item-img:active
+{
+    background-color:#f0c52e;
 }
 .slider
 {
